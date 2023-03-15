@@ -1,0 +1,32 @@
+package views;
+
+
+import models.Estudante;
+import models.Pessoa;
+import models.Professor;
+
+public class Programa {
+
+	public static void main(String[] args) 
+	{
+       Pessoa ps = new Pessoa("Maria",05/01/2000);
+       Professor prof= new Professor("Joao", 10/01/1988,"Letras");
+       Estudante estu= new Estudante("Aline",15/02/2000, 4567,"Exatas", 7890);
+       
+       for(Professor profe: Professor)
+	    {
+	    	System.out.println(prof.toString());
+	    }
+       for(Estudante estud: Estudante)
+       {
+    	   System.out.println(estu.toString());
+       }
+       for(Pessoa ps: Pessoa)
+       {
+    	   System.out.println(pess.toString());
+       }
+       
+       
+	}
+
+}
